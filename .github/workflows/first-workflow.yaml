@@ -1,0 +1,17 @@
+name: First Workflow
+
+on: [push]
+
+jobs:
+    run-shell-commands:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo my string
+              run: echo "Hello World"
+            - name: Multiline Command
+              run:  |
+                uname -a
+                env
+                pwd
+                whoami
+                 
