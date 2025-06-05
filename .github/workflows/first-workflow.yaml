@@ -14,4 +14,4 @@ jobs:
                 env
                 pwd
                 whoami
-                 
+                ip addr
